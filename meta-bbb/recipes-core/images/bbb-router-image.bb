@@ -15,5 +15,12 @@ IMAGE_INSTALL += " \
     bridge-utils \
     htop \
     vim \
+    util-linux \
+    procps \
+    openssh \
+    core-utils \
+    usbutils \
+    bash \
+    e2fsprogs \
     bbb-sysctl-ipforward \
 "
