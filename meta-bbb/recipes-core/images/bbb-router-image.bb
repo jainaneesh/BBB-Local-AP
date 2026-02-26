@@ -18,7 +18,7 @@ IMAGE_INSTALL += " \
     util-linux \
     procps \
     openssh \
-    core-utils \
+    coreutils \
     usbutils \
     bash \
     e2fsprogs \
