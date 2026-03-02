@@ -1,0 +1,7 @@
+[Match]
+Name=devusb0
+
+[Network]
+Bridge=br0
+LinkLocalAddressing=no
+IPV6AcceptRA=no
