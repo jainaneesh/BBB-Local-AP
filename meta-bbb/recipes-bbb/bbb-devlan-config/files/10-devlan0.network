@@ -1,5 +1,0 @@
-[Match]
-Name=devlan0
-
-[Network]
-Address=192.168.50.1/24
