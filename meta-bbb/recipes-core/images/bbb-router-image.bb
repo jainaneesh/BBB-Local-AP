@@ -22,5 +22,6 @@ IMAGE_INSTALL += " \
     usbutils \
     bash \
     e2fsprogs \
+    linux-firmware \
     bbb-sysctl-ipforward \
 "
