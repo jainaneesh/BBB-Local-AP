@@ -24,5 +24,5 @@ IMAGE_INSTALL += " \
     e2fsprogs \
     linux-firmware \
     bbb-sysctl-ipforward \
-    bbb-devlan-config
+    bbb-devlan-config \
 "
