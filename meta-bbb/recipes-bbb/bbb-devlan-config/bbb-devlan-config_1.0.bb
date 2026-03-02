@@ -18,9 +18,3 @@ do_install() {
 }
 
 FILES:${PN} += "${sysconfdir}/systemd/network/*"
-
-# Ensure networkd exists in the image; package name is split on many distros
-RDEPENDS:${PN} += "systemd-networkd"
-
-SYSTEMD_SERVICE:${PN} = "systemd-networkd.service"
-SYSTEMD_AUTO_ENABLE:${PN} = "enable"
