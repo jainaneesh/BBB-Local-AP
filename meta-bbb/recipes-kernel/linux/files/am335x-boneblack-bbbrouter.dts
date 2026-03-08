@@ -1,0 +1,13 @@
+/dts-v1/;
+
+#include "am335x-boneblack.dts"
+
+/ {
+    model = "BeagleBone Black - BBB Router";
+};
+
+/* Override CPSW switch mode */
+
+&mac_sw {
+    compatible = "ti,am335x-cpsw";
+};
