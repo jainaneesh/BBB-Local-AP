@@ -6,8 +6,10 @@
     model = "BeagleBone Black - BBB Router";
 };
 
-/* Override CPSW switch mode */
-
 &mac_sw {
-    compatible = "ti,am335x-cpsw";
+    status = "disabled";
+};
+
+&mac {
+    status = "okay";
 };
